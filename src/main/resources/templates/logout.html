@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<div>
+    <p> <a href="welcome">Welcome Page</a></p>
+    <p> <a href="/logout">Logout</a></p>
+</div>
+
+
+<div th:if="${user.claims.containsKey('appName')}"
+     class="alert alert-success text-center" role="alert">
+    <h2 th:text="${user.claims.appName}"></h2>
+</div>
+<p/>
+<div th:if="${user.claims.containsKey('name')}"
+     class="alert alert-primary text-center" role="alert">
+    <h3 th:inline="text">Welcome [[${user.claims.name}]]!</h3>
+</div>
+<div class="alert alert-secondary text-center">
+    <p>Token: </p>
+    <p th:inline="text" class="text-break" style="overflow-wrap: anywhere">
+        [[${idToken}]]
+    </p>
+</div>
+
+
+</body>
+</html>
