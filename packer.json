@@ -1,0 +1,13 @@
+{
+  "builders": [
+    {
+      "type": "googlecompute",
+      "project_id": "{{user `project_id`}}",
+      "source_image_family": "Debian",
+      "zone": "us-central1-a",
+      "image_description": "base-debian-java-image-created-with-packer",
+      "ssh_username": "root",
+      "tags": "packer"
+    }
+  ]
+}
