@@ -7,4 +7,4 @@ steps:
       - build
       - -var
       - project_id=$PROJECT_ID
-      - packer.json    
+      - packer.json
