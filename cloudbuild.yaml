@@ -6,11 +6,5 @@ steps:
     args:
       - build
       - -var
-        - image_name='deb-java-app-image'
-        - -var
-        - project_id=$PROJECT_ID
-        - -var
-        - image_family='debian-10'
-        - -var
-        - image_zone='us-central1-a'
-        - packer.json
+      - project_id=$PROJECT_ID
+      - packer.json
