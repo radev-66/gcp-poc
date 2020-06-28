@@ -1,7 +1,7 @@
 steps:
-   - name: 'maven'
-     entrypoint: 'mvn'
-     args: ['install']
+  - name: 'maven'
+    entrypoint: 'mvn'
+    args: ['install']
   - name: 'gcr.io/$PROJECT_ID/packer'
     args:
       - build
