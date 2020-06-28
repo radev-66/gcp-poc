@@ -10,5 +10,28 @@
       "ssh_username" : "root",
       "tags": "packer"
     }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": ["sudo apt-get update && sudo apt-get -y install openjdk-11-jdk", "mkdir /opt/app"]
+    },
+    {
+      "type": "file",
+      "source": "/workspace/target/gcp-poc-0.0.1-SNAPSHOT.jar",
+      "destination": "/opt/app/gcp-poc-0.0.1-SNAPSHOT.jar"
+    },
+    {
+      "type": "file",
+      "source": "/workspace/start-app.sh",
+      "destination": "/opt/app/start-app.sh"
+    },
+    {
+      "type": "file",
+      "source": "/workspace/rc.local",
+      "destination": "/etc/rc.local"
+    }
+
+
   ]
 }

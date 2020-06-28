@@ -1,0 +1,3 @@
+#!/bin/sh -e
+/opt/app/start-app.sh
+exit 0
