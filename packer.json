@@ -30,8 +30,10 @@
       "type": "file",
       "source": "/workspace/rc.local",
       "destination": "/etc/rc.local"
+    },
+    {
+      "type": "shell",
+      "inline": ["chmod +x /opt/app/start-app.sh", "chmod +x /etc/rc.local"]
     }
-
-
   ]
 }
