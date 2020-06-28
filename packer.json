@@ -7,6 +7,7 @@
       "zone": "us-central1-a",
       "image_description": "base-debian-java-image-created-with-packer",
       "image_name": "deb-java-app-image",
+      "ssh_username" : "root",
       "tags": "packer"
     }
   ]
