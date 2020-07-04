@@ -45,7 +45,7 @@ resource "google_compute_firewall" "default" {
     protocol = "tcp"
     ports    = ["8080"]
   }
-
+  source_ranges = ["35.191.0.0/16", "130.211.0.0/22"]
   source_tags = ["app-server"]
 }
 
