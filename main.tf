@@ -8,14 +8,34 @@ variable "image_id" {
     default = "deb-java-app-image"
 }
 
+variable "region1" {
+    type = string
+    default = "us-central1"
+}
+
 provider "google" {
   version = "3.5.0"
 
 
   project = var.project_id
-  region  = "us-central1"
+  region  = var.region1
   zone    = "us-central1-c"
 }
+
+resource "google_compute_router" "nat-router-us-central1" {
+  name    = "nat-router-us-central1"
+  region  = var.region1
+  network  = "default"
+}
+
+resource "google_compute_router_nat" "nat-config1" {
+  name                               = "nat-config1"
+  router                             = "${google_compute_router.nat-router-us-central1.name}"
+  region                             = "${var.region1}"
+  nat_ip_allocate_option             = "AUTO_ONLY"
+  source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
+}
+
 
 resource "google_compute_firewall" "default" {
   name    = "allow-port-8080-for-java-app"
