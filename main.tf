@@ -17,6 +17,20 @@ provider "google" {
   zone    = "us-central1-c"
 }
 
+resource "google_compute_firewall" "default" {
+  name    = "allow-port-8080-for-java-app"
+  network = google_compute_network.default.name
+
+  allow {
+    protocol = "tcp"
+    ports    = ["8080"]
+  }
+
+  source_tags = ["app-server"]
+}
+
+
+
 
 resource "google_compute_instance_template" "appserver" {
   name         = "app-server-template"
