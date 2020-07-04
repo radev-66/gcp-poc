@@ -19,7 +19,7 @@ provider "google" {
 
 resource "google_compute_firewall" "default" {
   name    = "allow-port-8080-for-java-app"
-  network = google_compute_network.default.name
+  network = "default"
 
   allow {
     protocol = "tcp"
