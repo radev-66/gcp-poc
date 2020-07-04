@@ -30,8 +30,8 @@ resource "google_compute_router" "nat-router-us-central1" {
 
 resource "google_compute_router_nat" "nat-config1" {
   name                               = "nat-config1"
-  router                             = "${google_compute_router.nat-router-us-central1.name}"
-  region                             = "${var.region1}"
+  router                             = google_compute_router.nat-router-us-central1.name
+  region                             = var.region1
   nat_ip_allocate_option             = "AUTO_ONLY"
   source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
 }
