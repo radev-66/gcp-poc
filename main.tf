@@ -64,7 +64,7 @@ resource "google_compute_instance_group_manager" "appserver" {
     instance_template  = google_compute_instance_template.appserver.id
   }
 
-  target_pools = [google_compute_target_pool.appserver.id]
+  #target_pools = [google_compute_target_pool.appserver.id]
   target_size  = 2
 
   named_port {
