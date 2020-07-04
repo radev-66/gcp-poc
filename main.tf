@@ -111,7 +111,7 @@ resource "google_compute_instance_group_manager" "appserver-igm" {
   }
 
   #target_pools = [google_compute_target_pool.appserver.id]
-  target_size  = 2
+  target_size  = 1
 
   named_port {
     name = "custom-http"
