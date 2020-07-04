@@ -54,7 +54,7 @@ resource "google_compute_health_check" "autohealing" {
   }
 }
 
-resource "google_compute_instance_group_manager" "app-server" {
+resource "google_compute_instance_group_manager" "appserver-igm" {
   name = "appserver-igm"
 
   base_instance_name = "appserver"
@@ -68,7 +68,7 @@ resource "google_compute_instance_group_manager" "app-server" {
   target_size  = 2
 
   named_port {
-    name = "customHTTP"
+    name = "custom-http"
     port = 8080
   }
 
