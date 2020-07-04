@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class WelcomeController {
 	
-	@GetMapping("/welcome")
+	@GetMapping(path = {"/welcome", "/"})
 	public ModelAndView welcome(@AuthenticationPrincipal OidcUser user) {
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("user", user.getUserInfo());
