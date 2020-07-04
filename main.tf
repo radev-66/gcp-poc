@@ -29,13 +29,13 @@ resource "google_compute_firewall" "default" {
   source_tags = ["app-server"]
 }
 
-resource "google_compute_firewall" "egree" {
+resource "google_compute_firewall" "egress" {
   name    = "allow-port-8080-for-java-app"
   network = "default"
   direction = "EGRESS"
   allow {
     protocol = "tcp"
-    ports    = ["80"]
+    ports    = ["443"]
   }
 
   target_tags = ["app-server"]
