@@ -30,7 +30,7 @@ resource "google_compute_firewall" "default" {
 }
 
 resource "google_compute_firewall" "egress" {
-  name    = "allow-port-8080-for-java-app"
+  name    = "allow-port-443-to-okta"
   network = "default"
   direction = "EGRESS"
   allow {
