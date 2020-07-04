@@ -54,7 +54,7 @@ resource "google_compute_health_check" "autohealing" {
   }
 }
 
-resource "google_compute_instance_group_manager" "appserver" {
+resource "google_compute_instance_group_manager" "app-server" {
   name = "appserver-igm"
 
   base_instance_name = "appserver"
