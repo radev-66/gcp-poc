@@ -13,12 +13,12 @@ variable "region1" {
     default = "us-central1"
 }
 
-var service_port {
+variable service_port {
     type = integer
     default = 8080
 }
 
-var service_port_name {
+variable service_port_name {
     type = string
     default = "custom-http"
 }
