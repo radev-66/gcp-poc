@@ -13,6 +13,16 @@ variable "region1" {
     default = "us-central1"
 }
 
+var service_port {
+    type = integer
+    default = 8080
+}
+
+var service_port_name {
+    type = string
+    default = "custom-http"
+}
+
 provider "google" {
   version = "3.5.0"
 
@@ -114,12 +124,59 @@ resource "google_compute_instance_group_manager" "appserver-igm" {
   target_size  = 1
 
   named_port {
-    name = "custom-http"
-    port = 8080
+    name = var.service_port_name
+    port = var.service_port
   }
 
   auto_healing_policies {
     health_check      = google_compute_health_check.autohealing.id
     initial_delay_sec = 300
+  }
+}
+
+
+module "gce-lb-http" {
+  source            = "GoogleCloudPlatform/lb-http/google"
+  version           = "~> 3.1"
+
+  name              = "external-http-lb"
+  project           = var.project_id
+
+  backends = {
+    default = {
+      description                     = null
+      protocol                        = "HTTP"
+      port                            = var.service_port
+      port_name                       = var.service_port_name
+      timeout_sec                     = 10
+      connection_draining_timeout_sec = null
+      enable_cdn                      = false
+      session_affinity                = null
+      affinity_cookie_ttl_sec         = null
+
+      health_check = google_compute_health_check.autohealing.id
+
+      log_config = {
+        enable = true
+        sample_rate = 1.0
+      }
+
+      groups = [
+        {
+          # Each node pool instance group should be added to the backend.
+          group                        = google_compute_instance_group_manager.appserver-igm.name
+          balancing_mode               = null
+          capacity_scaler              = null
+          description                  = null
+          max_connections              = null
+          max_connections_per_instance = null
+          max_connections_per_endpoint = null
+          max_rate                     = null
+          max_rate_per_instance        = null
+          max_rate_per_endpoint        = null
+          max_utilization              = null
+        },
+      ]
+    }
   }
 }
