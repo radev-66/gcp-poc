@@ -14,7 +14,7 @@ variable "region1" {
 }
 
 variable service_port {
-    type = integer
+    type = number
     default = 8080
 }
 
