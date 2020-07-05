@@ -155,7 +155,16 @@ module "gce-lb-http" {
       session_affinity                = null
       affinity_cookie_ttl_sec         = null
 
-      health_check = google_compute_health_check.autohealing.id
+     health_check = {
+        check_interval_sec  = null
+        timeout_sec         = null
+        healthy_threshold   = null
+        unhealthy_threshold = null
+        request_path        = "/actuator/health"
+        port                = 8080
+        host                = null
+        logging             = null
+     }
 
       log_config = {
         enable = true
