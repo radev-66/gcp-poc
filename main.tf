@@ -147,7 +147,7 @@ module "gce-lb-http" {
     default = {
       description                     = null
       protocol                        = "HTTP"
-      port                            = var.service_port
+      port                            = 8080
       port_name                       = var.service_port_name
       timeout_sec                     = 10
       connection_draining_timeout_sec = null
