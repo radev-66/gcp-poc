@@ -141,6 +141,7 @@ module "gce-lb-http" {
 
   name              = "external-http-lb"
   project           = var.project_id
+  target_tags       = [google_compute_instance_template.appserver.tags]
 
   backends = {
     default = {
