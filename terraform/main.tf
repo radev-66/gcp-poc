@@ -5,8 +5,6 @@ terraform {
   }
 }
 
-
-
 variable "project_id" {
     type = string
     default = "crucial-study-270402"

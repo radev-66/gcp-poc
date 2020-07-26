@@ -6,10 +6,10 @@ steps:
       - '-c'
       - |
         echo "***********************"
-        echo "$_APPLY"
+        echo "APPLY is set as : $_APPLY -- changes are applied only if set to true"
         echo "***********************"
   - id: 'tf init'
-    name: 'hashicorp/terraform:0.11.14'
+    name: 'hashicorp/terraform:0.12.29'
     entrypoint: 'sh'
     args:
       - '-c'
@@ -30,7 +30,7 @@ steps:
 
   # [START tf-apply]
   - id: 'tf apply'
-    name: 'hashicorp/terraform:0.11.14'
+    name: 'hashicorp/terraform:0.12.29'
     entrypoint: 'sh'
     args:
       - '-c'
