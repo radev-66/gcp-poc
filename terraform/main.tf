@@ -144,8 +144,8 @@ resource "google_compute_instance_group_manager" "appserver-igm" {
 
 
 module "gce-lb-http" {
-  source            = "github.com/GoogleCloudPlatform/lb-http/google"
-  
+  source            = "GoogleCloudPlatform/lb-http/google"
+
 
   name              = "app-http-lb"
   project           = var.project_id
