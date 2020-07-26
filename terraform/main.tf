@@ -1,13 +1,13 @@
 terraform {
   backend "gcs" {
-    bucket = "crucial-study-270402-tfstate"
+    bucket = "brave-nucleus-284516-tfstate"
     prefix = "env/dev"
   }
 }
 
 variable "project_id" {
     type = string
-    default = "crucial-study-270402"
+    default = "brave-nucleus-284516"
 }
 
 variable "image_id" {
