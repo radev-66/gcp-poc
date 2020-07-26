@@ -35,7 +35,7 @@ steps:
     args:
       - '-c'
       - |
-        if [ $_APPLY eq 'true' ]; then
+        if [ $_APPLY == 'true' ]; then
           cd terraform
           terraform apply -auto-approve
         else
