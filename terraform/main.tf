@@ -89,7 +89,7 @@ resource "google_compute_instance_template" "appserver" {
   disk {
     source_image = "deb-java-app-image"
     auto_delete  = true
-    disk_size_gb = 10
+    disk_size_gb = 25
     boot         = true
   }
 
