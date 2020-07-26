@@ -31,8 +31,6 @@ variable service_port_name {
 }
 
 provider "google" {
-  version = "3.5.0"
-
 
   project = var.project_id
   region  = var.region1
