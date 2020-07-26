@@ -165,7 +165,7 @@ module "gce-lb-http" {
         timeout_sec         = null
         healthy_threshold   = null
         unhealthy_threshold = null
-        request_path        = "/"
+        request_path        = "/actuator/health "
         port                = var.service_port
         host                = null
         logging             = null
