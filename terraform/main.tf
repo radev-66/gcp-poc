@@ -1,3 +1,12 @@
+terraform {
+  backend "gcs" {
+    bucket = "crucial-study-270402-tfstate"
+    prefix = "env/dev"
+  }
+}
+
+
+
 variable "project_id" {
     type = string
     default = "crucial-study-270402"
