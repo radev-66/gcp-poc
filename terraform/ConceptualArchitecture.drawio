@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T21:03:34.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="VfxLvbjyEl5tNX8HAGCA" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T21:06:03.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="RkVi6ZwkUcYGqqbepAow" version="17.2.4" type="github">
   <diagram id="BS_AunBwUl3tJXPD3Mcs" name="Page-1">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wGYtfCgb7JHefzf2lczv-38" value="2. Access Application" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wGYtfCgb7JHefzf2lczv-24" target="wGYtfCgb7JHefzf2lczv-43" edge="1">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-38" value="&amp;nbsp;Access Application" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wGYtfCgb7JHefzf2lczv-24" target="wGYtfCgb7JHefzf2lczv-43" edge="1">
           <mxGeometry x="0.2543" y="-20" relative="1" as="geometry">
             <mxPoint x="30" y="140" as="targetPoint" />
             <mxPoint y="1" as="offset" />
@@ -64,7 +64,7 @@
         <mxCell id="wGYtfCgb7JHefzf2lczv-52" value="&lt;font style=&quot;font-size: 15px&quot;&gt;B2C Okta Org&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="wGYtfCgb7JHefzf2lczv-53" vertex="1">
           <mxGeometry y="52.94448529411764" width="111.92522448979592" height="13.235294117647058" as="geometry" />
         </mxCell>
-        <mxCell id="wGYtfCgb7JHefzf2lczv-28" value="1. Authenticate (credentials or SSO)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;" parent="1" source="wGYtfCgb7JHefzf2lczv-24" target="wGYtfCgb7JHefzf2lczv-9" edge="1">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-28" value="Authenticate (credentials or SSO)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;" parent="1" source="wGYtfCgb7JHefzf2lczv-24" target="wGYtfCgb7JHefzf2lczv-9" edge="1">
           <mxGeometry x="0.3816" y="43" relative="1" as="geometry">
             <mxPoint x="495" y="290" as="targetPoint" />
             <Array as="points">
