@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T21:38:12.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="xUzSaqJdfDE3TrxPUCXg" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T21:48:33.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="1GZL3RibUOgLCL6dPlwY" version="17.2.4" type="github">
   <diagram id="BS_AunBwUl3tJXPD3Mcs" name="Page-1">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="wGYtfCgb7JHefzf2lczv-24" value="B2B or B2C Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="1" vertex="1">
           <mxGeometry x="80" y="20" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wGYtfCgb7JHefzf2lczv-55" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-55" value="Authentication Provider" style="group;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-250" y="270" width="390" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wGYtfCgb7JHefzf2lczv-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="wGYtfCgb7JHefzf2lczv-55" vertex="1">
@@ -81,7 +81,7 @@
             <mxPoint x="-12" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wGYtfCgb7JHefzf2lczv-59" value="Authorization Management System " style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-59" value="Authorization Management System " style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="75" y="550" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wGYtfCgb7JHefzf2lczv-65" value="Add User" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" source="wGYtfCgb7JHefzf2lczv-43" target="wGYtfCgb7JHefzf2lczv-60" edge="1">
@@ -130,10 +130,10 @@
         <mxCell id="tJAUmdHgURcMuOd_s7cF-6" value="User Mgmt. Flow/component" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="480" y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wGYtfCgb7JHefzf2lczv-63" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-63" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" parent="1" vertex="1" connectable="0">
           <mxGeometry x="296" y="270" width="258" height="171" as="geometry" />
         </mxCell>
-        <mxCell id="wGYtfCgb7JHefzf2lczv-43" value="B2B or B2C Applications" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="wGYtfCgb7JHefzf2lczv-63" vertex="1">
+        <mxCell id="wGYtfCgb7JHefzf2lczv-43" value="&lt;b&gt;B2B or B2C Applications&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="wGYtfCgb7JHefzf2lczv-63" vertex="1">
           <mxGeometry width="258" height="171" as="geometry" />
         </mxCell>
         <mxCell id="wGYtfCgb7JHefzf2lczv-34" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="wGYtfCgb7JHefzf2lczv-63" vertex="1" connectable="0">
