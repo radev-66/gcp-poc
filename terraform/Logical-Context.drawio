@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T18:02:53.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="AznEcNREBMXwKMCqCyc5" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T21:34:16.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="RUuf6eOJp2a7s4XU2LQQ" version="17.2.4" type="github">
   <diagram id="ph6kFKLF23NnV0sInsYU" name="Page-1">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="e25fCHqF_XSICWRYhGp0-2" value="B2C Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="136" y="170" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e25fCHqF_XSICWRYhGp0-9" value="AnyCompany HRM Platform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#663300;strokeWidth=2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="e25fCHqF_XSICWRYhGp0-9" value="AnyCompany HRServices Platform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#663300;strokeWidth=2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-388" y="330" width="668" height="270" as="geometry" />
         </mxCell>
         <mxCell id="e25fCHqF_XSICWRYhGp0-22" value="Employee Persona" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" parent="1" source="e25fCHqF_XSICWRYhGp0-3" target="e25fCHqF_XSICWRYhGp0-13" edge="1">
@@ -139,9 +139,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVPgGkp0cXZ_G8Fahzny-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="275" y="10" width="315" height="110" as="geometry" />
+          <mxGeometry x="275" y="10" width="315" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yVPgGkp0cXZ_G8Fahzny-6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Color Key:&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="yVPgGkp0cXZ_G8Fahzny-6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Key:&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="275" y="10" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVPgGkp0cXZ_G8Fahzny-7" value="&lt;font style=&quot;font-size: 21px&quot;&gt;Logical Business Services Diagram&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;fontColor=#1A1A1A;" vertex="1" parent="1">
@@ -150,14 +150,14 @@
         <mxCell id="yVPgGkp0cXZ_G8Fahzny-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FF3333;verticalAlign=top;fillColor=#FFFFFF;strokeColor=#82b366;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="45" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yVPgGkp0cXZ_G8Fahzny-9" value="&lt;font color=&quot;#1a1a1a&quot;&gt;System in scope. Existing Authentication and Authorization Platform&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="yVPgGkp0cXZ_G8Fahzny-9" value="&lt;font color=&quot;#1a1a1a&quot;&gt;System in scope. Existing Authentication and Authorization Platform&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVPgGkp0cXZ_G8Fahzny-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;verticalAlign=top;fillColor=#FFFFFF;strokeColor=#663300;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="90" width="60" height="20" as="geometry" />
+          <mxGeometry x="280" y="92" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yVPgGkp0cXZ_G8Fahzny-11" value="&lt;font color=&quot;#1a1a1a&quot;&gt;AnyCompany HRM Platform&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="360" y="91" width="200" height="19" as="geometry" />
+        <mxCell id="yVPgGkp0cXZ_G8Fahzny-11" value="&lt;font color=&quot;#1a1a1a&quot;&gt;AnyCompany HR Services Platform&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="93" width="220" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
